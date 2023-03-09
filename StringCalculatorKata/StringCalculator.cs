@@ -22,9 +22,7 @@ public static class StringCalculator {
                 }
             }
         }
-
-        Console.WriteLine(delimiterPattern);
-        Console.WriteLine(numbers);
+        
         var regex = new Regex(delimiterPattern);
 
         var sum = 0;
